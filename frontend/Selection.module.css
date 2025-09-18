@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 150px;
+}
+
+
+.title {
+  font-size: 2.6rem; /* Increase this to make it bigger */
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  font-size: 1.4rem; /* Adjust as needed */
+  margin-bottom: 40px;
+}
+.options {
+  display: flex;
+  gap: 300px;
+}
+
+.option {
+  padding: 80px;
+  font-size: 1.6rem;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.option:hover {
+  background-color: #ced2e0ff;
+}
